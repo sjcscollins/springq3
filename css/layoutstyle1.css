@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 90%;
+	display: flex;
+	background-color: purple;
+	flex-direction: row-reverse;
+}
+.nav-container {
+	display: flex;
+	justify-content: center;
+	background-color: red;
+}
+
+
+
+header {
+	background-color: red;
+}
+
+li {
+	list-style: none;
+	display: inline;
+	border: 3px black solid;
+	margin: 20px;
+	padding: 10px 20px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 80px;
+	margin: 0 auto;
+}
+
+.main-container {
+	display: flex;
+	padding: 10px;
+	background-color: purple;
+}
+
+.main-fb1 {
+	padding: 10px;
+	order: 3;
+}
+
+.main-fb2 {
+	padding:10px;
+	flex-grow:1;
+}
+.main-fb3 {
+	padding:10px;
+}
+
+footer {
+	height: 40px;
+	margin-top: 20px;
+	background-color: red;
+	font-weight: bold;
+}

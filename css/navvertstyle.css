@@ -1,0 +1,74 @@
+.wrapper {
+	margin: 0 auto;
+	max-width: 90%; 	
+	margin-top: 20px;
+}
+
+nav {
+	padding-bottom: 20px;
+	border-bottom: 3px black solid;
+	margin-right: 20px;
+}
+
+h1 {
+	color: blue;
+	font-size: 84px;
+	text-align: center;
+}
+
+a {
+	background-color: blue;
+	color: white;
+	display: block;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-align: center;
+	padding: 10px;
+}
+
+li {
+	list-style: none;
+	margin: 10px;
+}
+
+section {
+	background-color: gray;
+
+}
+
+h2 {
+	color: blue;
+	font-size: 36px;
+}
+
+section article {
+	margin: 20px;
+	margin-top: 30px;
+}
+
+.coll {
+	float: left;
+	clear: left;
+	width: 45%;
+}
+
+.colr {
+	float: right;
+	clear: right;
+	width: 45%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+footer {
+	background-color: blue;
+	color: white;
+	text-align: center;
+}

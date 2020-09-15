@@ -1,0 +1,88 @@
+.container {
+	display: grid;
+	background-color: black;
+	width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 0px #8d8d8d;
+     grid-template-areas: 
+    "box1 box2 box2"
+    "box3 box2 box2"
+    "box4 box5 box6"
+    "box4 box5 box7";
+    grid-template-rows: 140px 140px 45px 45px;
+    grid-template-columns: 100px 260px 20px;
+    grid-gap: 10px;
+}
+    
+    /*
+    grid-template-areas: 
+    "box1  box2 box2"
+    "box8  box2 box2"
+    "box3  box2 box2"
+    "box9  box9 box9"
+    "box4  box5 box6"
+    "box4  box5 box10"
+    "box4  box5 box7";
+    grid-template-rows: 140px 10px 140px 10px 45px 10px 45px;
+    grid-template-columns: 100px 280px 20px;
+
+}
+*/
+#box1 {
+	grid-area: box1;
+	background-color: #fff4db;
+}
+
+#box2 {
+	grid-area: box2;
+	background-color: red;
+}
+
+#box3 {
+	grid-area: box3;
+	background-color: #fff4db;
+
+}
+
+#box4 {
+	grid-area: box4;
+	background-color: blue;
+}
+
+#box5 {
+	grid-area: box5;
+	background-color: #fff4db;
+}
+
+#box6 {
+	grid-area: box6;
+	background-color: #fff4db;
+}
+
+#box7 {
+	grid-area: box7;
+	background-color: yellow;
+}
+
+#box8 {
+	grid-area: box8;
+	background-color: black;
+}
+
+#box9 {
+	grid-area: box9;
+	background-color: black;
+}
+
+#box10 {
+	grid-area: box10;
+	background-color: black;
+}
+
+#box11 {
+	grid-area: box11;
+	background-color: black;
+}

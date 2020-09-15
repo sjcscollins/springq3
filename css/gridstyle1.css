@@ -1,0 +1,38 @@
+.wrapper {
+	max-width: 80%;
+	margin: 0 auto;
+}
+.container {
+	display: grid;
+	grid-template-areas: 
+	"header header"
+	"main aside"
+	"footer footer";
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 100px 80vh 50px;
+	grid-gap: 1vw;
+}
+
+#main {
+	grid-area: main;
+}
+
+#header {
+	grid-area: header;
+}
+
+#footer {
+	grid-area: footer;
+}
+
+#aside {
+	grid-area: aside;
+}
+
+.box {
+	background-color: red;
+	font-size: 32px;
+	border: 3px black solid;
+	text-align: center;
+	padding: 10px;
+}

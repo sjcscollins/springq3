@@ -1,0 +1,134 @@
+body, html {
+	background-color: #f6f6f6;
+}
+
+#painting {
+	width: 700px;
+	height: 600px;
+	background-color: #fff4db;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#toprow {
+	height: 25px;
+}
+
+#secondrow {
+	height: 25px;
+}
+
+#thirdrow {
+	height: 25px;
+}
+
+#fourthrow {
+	height: 25px;
+}
+#fifthrow {
+	height: 25px;
+}
+
+#sixthrow {
+	height: 25px;
+}
+
+#seventhrow {
+	height: 25px;
+}
+
+.fifteen {
+	width: 15px;
+	height: 25px;
+}
+.twentyfive {
+	width: 25px;
+	height: 25px;
+}
+
+.onehundred {
+	width: 100px;
+	height: 25px;
+}
+
+.onehundred {
+	width: 100px;
+	height: 25px;
+}
+
+.twohundred {
+	width: 200px;
+	height: 25px;
+}
+
+.ten {
+	width: 10px;
+	height: 25px;
+}
+
+.fifty {
+	width: 50px;
+	height: 25px;
+}
+.twenty {
+	width: 20px;
+	height: 25px;
+}
+.seventyfive {
+	width: 75px;
+	height: 25px;
+}
+.seventy {
+	width: 70px;
+	height: 25px;
+}
+.ninty {
+	width: 90px;
+	height: 25px;
+}
+.sixtyfive {
+	width: 65px;
+	height: 25px;
+}
+.thirtyfive {
+	width: 35px;
+	height: 25px;
+}
+.onetwentyfive {
+	width: 125px;
+	height: 25px;
+}
+.oneforty {
+	width: 140px;
+	height: 25px;
+}
+.green {
+	background-color: #14281D;
+}
+
+.lgreen {
+	background-color: #4c8a68;
+}
+.yellow {
+	background-color: #FFA630;
+}
+
+.lyellow {
+	background-color: #ffc77d;
+}
+
+.teal {
+	background-color: #20A39E;
+}
+
+.flame {
+	background-color: #E4572E;
+}
+
+.pink {
+	background-color: #DE3C4B;
+}
+
+.right {
+	float: right;
+}

@@ -1,0 +1,46 @@
+body{
+	font-size: 24px;
+}
+.wrapper {
+	max-width: 90%;
+	margin: 0 auto;
+	background-color: green;
+}
+
+h1 {
+	text-align: center;
+	font-size: 64px;
+}
+
+ul {
+	list-style: none;
+}
+a:link {
+	text-decoration: none;
+}
+
+.kenna {
+	width: 100px;
+	display: block;
+	border: 3px solid black;
+}
+.cambodia {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.flexcontainer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.flex1 {
+	background-color: red;
+	width: 300px;
+}
+
+.flex2 {
+	background-color: blue;
+	flex-grow: 1;
+}

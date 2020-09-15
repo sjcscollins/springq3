@@ -1,0 +1,33 @@
+.wrapper {
+	max-width: 80%;
+	margin: 0 auto;
+	background-color: red;
+}
+
+h1 {
+	background-color: blue;
+	padding: 10px;
+
+}
+
+img {
+	float: left;
+	max-width: 40%;
+	border: 4px black solid;
+}
+
+.clearfix:after	{
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+.clear {
+	float: left;
+}
+
+p {
+	padding-left: 600px;
+}

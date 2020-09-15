@@ -1,0 +1,42 @@
+.container {
+	display: grid;
+	grid-template-columns: 100px 400px 100px;
+	grid-template-rows: 200px 200px 200px 200px;
+	grid-template-areas: 
+	"header header header"
+	"pic1 pic2 pic3"
+	"pic4 pic5 pic5"
+	"footer footer footer";
+}
+
+h1 {
+	text-align: center;
+	font-size: 48px;
+}
+
+img {
+	border: 3px red solid;
+}
+.header {
+	grid-area: header;
+}
+
+.pic1 {
+	grid-area: pic1;
+}
+
+.pic2 {
+	grid-area: pic2;
+}
+
+.pic3 {
+	grid-area: pic3;
+}
+
+.pic4 {
+	grid-area: pic4;
+}
+
+.pic5 {
+	grid-area: pic5;
+}

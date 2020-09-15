@@ -1,0 +1,35 @@
+.wrapper {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.sec1 {
+	background-color: black;
+	float: left;
+	max-width: 	60%;
+	color: white;
+	padding: 10px;
+
+}
+
+.sec2 {
+	background-color: blue;
+	float: right;
+	max-width: 	35%;
+	padding: 10px;
+}
+
+.onecol {
+	background-color: green;
+	height: 100%;
+
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}

@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	max-width: 90%;
+	margin: 0 auto;
+}
+.nav-container {
+	display: flex;
+	justify-content: center;
+}
+
+.fb-container {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+ section {
+ 	background-color: gray;
+	margin-top: 30px;
+	margin-bottom: 20px;
+ }
+
+section article {
+	margin: 20px;
+	margin-top: 30px;
+}
+
+h1 {
+	color: blue;
+	font-size: 84px;
+	text-align: center;
+}
+h2 {
+	color: blue;
+	font-size: 36px;
+}
+nav {
+	padding-bottom: 20px;
+	border-bottom: 3px black solid;
+	margin-right: 20px;
+}
+a {
+	background-color: blue;
+	color: white;
+	display: block;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-align: center;
+	padding: 10px;
+}
+
+li {
+	list-style: none;
+	margin: 10px;
+}
+
+footer {
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
